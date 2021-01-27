@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  width: 100%;
+  background: yellow;
+  height: 100vh;
+}
+.main {
+  width: 95%;
+  height: 200px;
+  margin: 0 auto;
+}
+.search {
+  width: 200px;
+  height: 60px;
+  background: #5b2e8b;
+  text-align: center;
+  margin-left: 2%;
+}
+.search a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  display: inline-block;
+  padding-top: 5%;
+}
+.navbar1 {
+  width: 100%;
+  min-height: 100px;
+  background: #5b2e8b;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.first-input {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 45px;
+  padding-bottom: 10px;
+}
+.first-input1 {
+  position: relative;
+  flex: 2;
+  margin-right: 10px;
+  min-width: 200px;
+}
+.first-input1 input {
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 0px 10px 50px;
+  outline: 0;
+  color: #aaa;
+}
+.first-input1 i {
+  position: absolute;
+  left: 10px;
+  top: 4px;
+  color: #aaa;
+  transition: 0.3s;
+}
+.first-input2 {
+  position: relative;
+  margin-right: 10px;
+  flex: 1;
+  min-width: 200px;
+}
+.first-input2 input {
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 0px 10px 50px;
+  outline: 0;
+  color: #aaa;
+}
+.first-input2 i {
+  position: absolute;
+  left: 18px;
+  top: 12px;
+  color: #aaa;
+  transition: 0.3s;
+  font-size: 20px;
+}
+.first-input3 {
+  flex: 1;
+  margin-right: 10px;
+  min-width: 200px;
+}
+.first-input3 select {
+  width: 100%;
+  font-size: 18px;
+  padding: 10px 0px 10px 30px;
+  outline: 0;
+  color: #847d7d;
+}
+.first-input4 {
+  flex: 0.3;
+  text-align: right;
+}
+.navbar1 i {
+  position: absolute;
+}
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+
+.navbar1 button {
+  background: red;
+  color: white;
+  font-size: 16px;
+  padding: 13px 15px;
+  font-weight: 700;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+/*                               WHITE  SPACE                    */
+
+.white-space {
+  background-color: white;
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+.white-space .search2 {
+  position: absolute;
+  bottom: 0;
+  left: 230px;
+  width: 200px;
+  height: 60px;
+  background: #5b2e8b;
+  text-align: center;
+}
+.white-space .search2 a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  display: inline-block;
+  padding-top: 5%;
+}
+
+/*                         NAVBAR 2                  */
+
+.navbar2 {
+  width: 100%;
+  min-height: 100px;
+  background: #5b2e8b;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 40px;
+}
+.navbar2 button {
+  background: red;
+  color: white;
+  font-size: 16px;
+  padding: 13px 15px;
+  font-weight: 700;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+.navbar2 .second-input {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.navbar2 .second-input input {
+  outline: 0;
+}
+.navbar2 .second-input .second-input-1,
+.navbar2 .second-input .second-input-2 {
+  min-width: 170px;
+  flex: 1;
+  margin-right: 10px;
+}
+.navbar2 .second-input .second-input-1 select,
+.navbar2 .second-input .second-input-2 select {
+  color: #847d7d;
+  padding: 10px 0px 10px 10px;
+  font-size: 18px;
+  outline: 0;
+  width: 100%;
+}
+.navbar2 .second-input .second-input-3 {
+  margin-right: 10px;
+}
+.navbar2 .second-input .second-input-3,
+.navbar2 .second-input .second-input-4 {
+  position: relative;
+  flex: 2;
+  min-width: 190px;
+}
+.navbar2 .second-input .second-input-1 input,
+.navbar2 .second-input .second-input-2 input,
+.navbar2 .second-input .second-input-3 input,
+.navbar2 .second-input .second-input-4 input {
+  width: 100%;
+}
+.navbar2 .second-input input {
+  padding: 10px 0px 10px 80px;
+  font-size: 18px;
+}
+.navbar2 .second-input i {
+  position: absolute;
+  left: 15px;
+  top: 12px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: #5b2e8b;
+  transition: 0.3s;
+}
+
+.third-input {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.third-input .third-input-1 {
+  flex: 1.03;
+  margin-right: 11px;
+  position: relative;
+  min-width: 240px;
+}
+.third-input .third-input-1 select {
+  color: #847d7d;
+  padding: 10px 0px 10px 80px;
+  font-size: 18px;
+  outline: 0;
+  width: 100%;
+}
+.third-input .third-input-1 i {
+  position: absolute;
+  left: 15px;
+  top: 12px;
+  padding-left: 10px;
+  font-size: 20px;
+  color: #5b2e8b;
+  transition: 0.3s;
+}
+.third-input .third-input-2 {
+  flex: 1;
+  margin-right: 11px;
+  min-width: 150px;
+}
+
+.third-input .third-input-2 select {
+  color: #847d7d;
+  text-align: center;
+  padding: 10px 0px 10px 30px;
+  font-size: 18px;
+  outline: 0;
+  width: 100%;
+  padding-left: 150px;
+}
+.third-input .third-input-3 {
+  flex: 1;
+  min-width: 250px;
+}
+.third-input .third-input-3 input {
+  color: #847d7d;
+  padding: 7px 0px 8px 80px;
+  font-size: 18px;
+  outline: 0;
+  width: 100%;
+}
+.selects {
+  padding-top: 30px;
+  display: flex;
+  color: white;
+}
+.selects-1,
+.selects-2 {
+  margin-right: 20%;
+}
